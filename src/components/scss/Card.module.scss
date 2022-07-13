@@ -1,5 +1,6 @@
 .card {
   margin-right: 40px;
+	margin-bottom: 30px;
   border: 1px solid #f3f3f3;
   padding: 20px;
   width: 210px;
@@ -10,6 +11,9 @@
     box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.06);
     transform: translateY(-5px);
   }
+	.plus {
+		cursor: pointer;
+	}
 
   .favorite {
     position: absolute;
