@@ -8,7 +8,7 @@ function Card({ onFavorite, imageUrl, title, price, onPlus }) {
     onPlus({ title, price, imageUrl });
     setIsAdded(!isAdded);
   };
-
+	
   return (
     <div className={styles.card}>
       <div className={styles.favorite} onClick={onFavorite}>
